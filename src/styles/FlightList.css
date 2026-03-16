@@ -1,0 +1,52 @@
+.flight-list {
+  padding: 20px 0;
+}
+
+.flight-list-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.flight-list-subtitle {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.filters {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.filter-select {
+  padding: 10px 15px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  background: white;
+}
+
+.filter-select:focus {
+  outline: none;
+  border-color: #4a90e2;
+}
+
+.flights-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .filters {
+    flex-direction: column;
+  }
+
+  .flights-grid {
+    grid-template-columns: 1fr;
+  }
+}
