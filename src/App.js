@@ -7,6 +7,7 @@ import FlightList from './components/FlightList';
 import Footer from './components/Footer';
 import AuthModal from './components/AuthModal';
 import MyBookings from './components/MyBookings';
+import Chatbot from './components/Chatbot'; // Add this import
 
 function App() {
   const [flights, setFlights] = useState([]);
@@ -328,6 +329,9 @@ function App() {
       </section>
       
       <Footer onNavClick={scrollToSection} />
+      
+      {/* Add Chatbot component here */}
+      <Chatbot />
       
       {showAuthModal && (
         <AuthModal
