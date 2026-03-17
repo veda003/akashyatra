@@ -2,7 +2,7 @@
   "name": "aakashyatri",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://vedagiri003.github.io/aakashyatri",
+  "homepage": ".",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -13,8 +13,8 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
     "build": "react-scripts build",
+    "start": "react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

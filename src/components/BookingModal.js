@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaTimes, FaUser, FaPhone, FaEnvelope } from 'react-icons/fa';
+import { FaTimes, FaPhone, FaEnvelope } from 'react-icons/fa';
 import '../styles/BookingModal.css';
 
 const BookingModal = ({ flight, onClose, onConfirm, user }) => {
